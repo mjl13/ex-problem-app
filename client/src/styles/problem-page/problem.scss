@@ -1,0 +1,39 @@
+
+
+$question-text-block-separation: 10px;
+$question-img-separation: 30px;
+$default-line-height: 150%;
+
+#problem-container {
+	min-width: 500px;
+	width: 500px;
+}
+
+#problem-padded-container {
+
+}
+
+.question-component {
+	margin-bottom: $question-text-block-separation;
+}
+
+.question-component:last-child {
+	// margin-bottom: 0;
+}
+
+li.ordered-question {
+	counter-increment: question-list;
+	display: flex;
+}
+
+li.ordered-question:before {
+	content: counter(question-list, lower-alpha)")";
+	line-height: $default-line-height;
+	margin-right: 10px;
+}
+
+.problem-image {
+	display: block;
+	margin: $question-img-separation auto;
+	width: 35%;
+}

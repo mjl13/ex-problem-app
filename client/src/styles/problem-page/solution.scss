@@ -1,0 +1,218 @@
+
+/* Colors */
+$motif-color: #274E90;
+$border-grey: #bcbcbc;
+$accordion-section-header-color: #666;
+$accordion-nav-button-color: #888;
+
+/* White space */
+
+$caret-width: 10px;
+$caret-margin-right: 20px;
+
+$solution-inner-horizontal-padding: 5px;
+$accordion-section-collapsed-vertical-padding: 11px;
+$accordion-section-horizontal-padding: 10px;
+$step-title-text-block-spacing: 20px;
+$space-below-last-step-row: 30px;
+
+/* Other */
+
+$default-line-height: 150%;
+
+#solution-container {
+	min-width: 900px;
+	width: 900px;
+	margin-top: 20px;
+}
+
+// div.solution-content-below-header {
+// 	// padding: 10px 0 0 0;
+// 	display: flex;
+// 	flex-direction: column;
+// }
+
+li.accordion-section .content-below-header {
+	padding: 0 0 $space-below-last-step-row calc( #{$caret-width} + #{$caret-margin-right});
+}
+
+.accordion-caret {
+	margin-right: $caret-margin-right;
+	transition: transform 0.25s ease-out;
+	transform: rotate(0deg);
+	// fill:
+}
+
+.rotated {
+	transform: rotate(90deg);
+}
+
+div.accordion-header {
+	display: flex;
+	padding: $accordion-section-collapsed-vertical-padding
+			 0
+			 $accordion-section-collapsed-vertical-padding
+			 $accordion-section-horizontal-padding;
+}
+
+ul.accordion-list {
+	// transition: max-height 4s;
+}
+
+h2.accordion-header-title, ul.strategy-paragraph-list {
+	width: 650px;
+}
+
+h2.accordion-header-title, h3.accordion-section-title, .accordion-nav button {
+	-webkit-user-select: none;
+}
+
+ul.strategy-paragraph-list {
+	margin-top: 20px;
+}
+
+div.solution-accordion-container {
+	margin-bottom: 10px;
+}
+
+div.solution-accordion-container:last-child {
+	margin-bottom: 0px;
+}
+
+li.accordion-section {
+	border-top: 1px solid $border-grey;
+	padding: 0 $accordion-section-horizontal-padding;
+
+}
+
+li.accordion-section:last-child {
+	border-bottom: 1px solid $border-grey;
+}
+
+div.accordion-section-title-row {
+	display: flex;
+	padding: $accordion-section-collapsed-vertical-padding 0;
+	color: $accordion-section-header-color;
+}
+
+h3.accordion-section-title {
+	font-weight: 500;
+	color: inherit;
+	transition: color 0.1s ease-out;
+}
+
+li.accordion-nav {
+	padding: 0 0 0 calc( #{$caret-width} + #{$caret-margin-right} + #{$accordion-section-horizontal-padding});
+}
+
+.accordion-nav button {
+	border: none;
+	color: $accordion-nav-button-color;
+	font-size: 11px;
+	padding: $accordion-section-collapsed-vertical-padding 0;
+	margin-right: 15px;
+	transition: color 0.1s ease-out;
+}
+
+.strategy-accordion .content-below-header {
+	width: 50%;
+}
+
+.info-row p {
+	width: 250px;
+}
+
+/* Button and hover effects */
+
+.accordion-nav button:hover {
+	cursor: pointer;
+	color: black;
+}
+
+.accordion-nav button:focus {
+	outline: none;
+}
+
+div.accordion-section-title-row:hover {
+	cursor: pointer;
+	color: black;
+}
+
+div.accordion-header:hover {
+	cursor: pointer;
+}
+
+
+/* Math/Explanation stuff */
+
+ul.solution-steps li {
+	display: flex;
+	justify-content: space-between;
+	margin-top: $step-title-text-block-spacing;
+}
+
+.col-left {
+	width: 30%;
+}
+
+.col-right {
+	width: 65%;
+}
+
+div.block-math-wrapper {
+	line-height: $default-line-height;
+}
+
+/* Hijacked  */
+
+#hijack-1 {
+	position: relative;
+	margin-top: 10px;
+}
+
+#hijack-2 {
+	position: relative;
+	margin-top: 205px;
+}
+
+#hijack-3 {
+	position: relative;
+	margin-top: 25px;
+}
+
+#hijack-4 {
+	position: relative;
+	margin-top: 20px;
+}
+
+#hijack-5 {
+	position: relative;
+	margin-top: 70px;
+}
+
+#hijack-6 {
+	position: relative;
+	margin-top: 65px;
+}
+
+#hijack-7 {
+	position: relative;
+
+}
+
+#hijack-8 {
+	position: relative;
+	margin-top: 20px;
+}
+
+#hijack-9 {
+	position: relative;
+	margin-top: 40px;
+}
+
+
+
+
+
+
+

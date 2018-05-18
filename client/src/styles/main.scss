@@ -1,0 +1,150 @@
+
+/* Colors */
+
+$background-grey: #f9f9f9;
+$motif-color: #274E90;
+$border-grey: #bcbcbc;
+$header-background-color: #F3F3F3;
+
+$link-color: #3269C5;
+$link-hover-color: #274E90;
+// $link-focus-color: ;
+
+/* White Space */
+
+$header-text-separation: 15px;
+$default-text-padding-left: 5px;
+$default-container-padding: 17px;
+
+/* $padded-container-defaults: $default-container-padding
+						    calc( #{$default-container-padding} + #{$default-text-padding-left} )
+						    $default-container-padding
+						    $default-container-padding; */
+
+$padded-container-defaults: $default-container-padding;
+
+/* Other */
+
+$default-line-height: 150%;
+
+
+body {
+	background-color: $background-grey;
+	font-family: 'Roboto', 'Helvetica';
+	font-size: 13px;
+	counter-reset: question-list;
+
+}
+
+$site-header-height: 50px;
+
+.site-header {
+	height: $site-header-height;
+	background-color: $header-background-color;
+	border-top: 4px solid $motif-color;
+	display: flex;
+	// box-shadow: 0 0 2px #888;
+}
+
+.site-header-link {
+	line-height: $site-header-height;
+	margin-left: 25px;
+	font-size: 15px;
+	color: black;
+}
+
+.site-header-link:hover {
+	color: black;
+}
+
+h1.site-header-link {
+	font-weight: bold;
+
+}
+
+h2.site-header-link {
+	font-weight: 300;
+}
+
+// #header-logo-link, #header-home-link, #header-about-link {
+// 	color: black;
+// }
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+// a:hover {
+// 	color: $link-hover-color;
+// }
+
+.padded-container {
+	padding: $padded-container-defaults;
+	box-shadow: 0 0 2px #888;
+	border-radius: 4px;
+	background-color: white;
+}
+
+header.line-bar-header {
+	border-bottom: 1px solid $border-grey;
+	padding-bottom: 7px;
+}
+
+h2.line-bar-header-title {
+	font-weight: bold;
+	margin-left: $default-text-padding-left;
+	font-size: 14px;
+}
+
+.sitting-header {
+	padding-bottom: 8px;
+}
+
+.sitting-header-title {
+	font-weight: bold;
+	padding-left: calc(#{$default-container-padding} - 2px);
+	font-size: 14px;
+}
+
+// .content-below-header {
+// 	padding: $header-text-separation $default-text-padding-left 0 $default-text-padding-left
+// }
+
+p {
+	line-height: $default-line-height;
+}
+
+#problem-container, #info-container, #solution-container {
+	height: 100%;
+}
+
+.main-content-wrapper {
+	width: 900px;
+	margin: 35px auto 250px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.main-content-wrapper-no-flex {
+	width: 900px;
+	margin: 35px auto 250px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

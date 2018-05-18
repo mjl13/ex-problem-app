@@ -1,0 +1,27 @@
+.set-page-problem {
+	width: 500px;
+	margin: 15px auto;
+}
+
+.set-page-info {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.set-page-info-list li {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.set-page-info-list li:last-child {
+	margin-bottom: 0;
+}
+
+.set-info-left {
+	font-weight: 500;
+	width: 100px;
+}
+
+.set-info-right {
+
+}

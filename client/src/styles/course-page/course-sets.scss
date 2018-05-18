@@ -1,0 +1,89 @@
+
+/* Colors */
+
+$background-grey: #f9f9f9;
+$motif-color: #8A2F1B;
+$border-grey: #bcbcbc;
+$header-background-color: #eee;
+
+/* White Space */
+
+$header-text-separation: 15px;
+$default-text-padding-left: 5px;
+$default-container-padding: 17px;
+
+$padded-container-defaults: $default-container-padding;
+
+/* Other */
+
+$default-line-height: 150%;
+
+.set-title-category-col {
+	width: 130px
+}
+
+.set-date-category-col {
+	width: 145px;
+}
+
+.set-authors-category-col {
+	width: 200px;
+}
+
+.set-topics-category-col {
+	width: 400px;
+}
+
+ul.table-row li.set-title-category-col {
+	color: #3269C5;
+}
+
+ul.table-row li.set-title-category-col:hover {
+	cursor: pointer;
+	color: #274E90;
+}
+
+ul.table-row li.set-date-category-col {
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

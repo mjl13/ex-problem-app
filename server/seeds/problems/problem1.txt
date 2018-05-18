@@ -1,0 +1,17 @@
+\bold{E} = kr^{3}\bold{\hat{r}}
+
+\nabla \cdot \bold{E} = \frac{\rho}{\epsilon_{0}}
+
+\nabla \cdot \left(kr^{3}\bold{\hat{r}}\right) = \frac{\rho}{\epsilon_{0}}
+
+\nabla \cdot \bold{A} = {1 \over r^2}{\partial \left( r^2 A_r \right) \over \partial r}
++ {1 \over r\sin\theta}{\partial \over \partial \theta} \left(  A_\theta\sin\theta \right)
++ {1 \over r\sin\theta}{\partial A_\varphi \over \partial \varphi}
+
+\begin{aligned}&E_r = kr^3\\ \\ &E_{\theta} = 0 \\ \\ & E_{\varphi} = 0\\ \end{aligned}
+
+\begin{aligned}\nabla \cdot \bold{E} &= {1 \over r^2}{{\partial \over \partial r}\left(r^{2}\cdot kr^{3}\right)}
++ {1 \over r\sin\theta}{\partial \over \partial \theta} \left(  0 \cdot \sin\theta \right)
++ {1 \over r\sin\theta}{{\partial \over \partial \varphi}\left(0\right)}  \\ \\&= {1 \over r^2}{{\partial \over \partial r}\left(kr^{5}\right)}\\ \\ &= {1 \over r^{2}}\left(5kr^{4}\right)\\ \\ \nabla \cdot \bold{E} &= 5kr^{2} \end{aligned}
+
+5kr^{2}=\frac{\rho}{\epsilon_0}

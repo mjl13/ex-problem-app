@@ -1,0 +1,29 @@
+
+
+$default-line-height: 150%;
+$info-row-vertical-padding: 5px;
+$info-category-color: #666;
+
+#info-container {
+	min-width: 350px;
+	width: 380px;
+}
+
+li.info-row {
+	display: flex;
+	// padding: $info-row-vertical-padding 0;
+	margin-bottom: 10px;
+}
+
+li.info-row:last-child {
+	margin-bottom: 0px;
+}
+
+h3.info-category {
+	font-weight: 500;
+	color: $info-category-color;
+	line-height: $default-line-height;
+	width: 30%;
+}
+
+

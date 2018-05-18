@@ -1,0 +1,14 @@
+$default-line-height: 150%;
+
+
+header ul.table-categories {
+	display: flex;
+	font-weight: 500;
+}
+
+ul.table-row {
+	display: flex;
+	// padding: 10px 0;
+	margin-top: 15px;
+	line-height: $default-line-height;
+}

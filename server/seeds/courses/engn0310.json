@@ -1,0 +1,11 @@
+{
+	"course_id": 0,
+	"title": "Solid Mechanics",
+	"instructors": ["Huajian Gao", "Christian Franck"],
+	"school": "Brown University",
+	"subject": "Engineering",
+	"description": "Mechanical behavior of materials and analysis of stress and deformation in engineering structures and continuous media. Topics include concepts of stress and strain; the elastic, plastic, and time-dependent response of materials; principles of structural analysis and application to simple bar structures, beam theory, instability and buckling, torsion of shafts; general three-dimensional states of stress; Mohr's circle; stress concentrations. Lectures, recitations, and laboratory.",
+	"code": "ENGN 0310",
+
+    "problem_set_ids": [0, 1, 2]
+}

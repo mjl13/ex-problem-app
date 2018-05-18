@@ -1,0 +1,55 @@
+
+/* Colors */
+
+$background-grey: #f9f9f9;
+$motif-color: #8A2F1B;
+$border-grey: #bcbcbc;
+$header-background-color: #eee;
+
+/* White Space */
+
+$header-text-separation: 15px;
+$default-text-padding-left: 5px;
+$default-container-padding: 17px;
+
+$padded-container-defaults: $default-container-padding;
+
+/* Other */
+
+$default-line-height: 150%;
+
+
+h2#course-title {
+	font-size: 15px;
+}
+
+header#course-title-header {
+}
+
+section.dynamic-box-wrapper {
+	margin-top: 35px;
+}
+
+nav.course-nav {
+	display: flex;
+	padding-bottom: 12px;
+	padding-left: $default-container-padding;
+}
+
+h2.nav-category {
+	font-size: 14px;
+	font-weight: 300;
+	margin-right: 20px;
+}
+
+h2.nav-category:hover {
+	cursor: pointer;
+}
+
+div#course-dynamic-box {
+	// width: 600px;
+}
+
+nav .selected-category {
+	font-weight: bold;
+}

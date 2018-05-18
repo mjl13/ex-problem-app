@@ -1,0 +1,11 @@
+{
+    "course_id": 1,
+    "title": "Electricity & Magnetism",
+    "instructors": ["Rashid Zia", "Alexander Zaslavsky"],
+    "school": "Brown University",
+    "subject": "Engineering",
+    "description": "Fundamental laws of electricity and magnetism and their role in engineering applications. Concepts of charge, current, potential, electric field, magnetic field. Resistance, capacitance, and inductance. Electric and magnetic properties of materials. Electromagnetic wave propagation.",
+    "code": "ENGN 0510",
+
+    "problem_set_ids": [3]
+}

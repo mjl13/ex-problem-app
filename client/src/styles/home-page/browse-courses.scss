@@ -1,0 +1,99 @@
+
+/* Colors */
+
+$background-grey: #f9f9f9;
+$motif-color: #8A2F1B;
+$border-grey: #bcbcbc;
+$header-background-color: #eee;
+
+/* White Space */
+
+$header-text-separation: 15px;
+$default-text-padding-left: 5px;
+$default-container-padding: 17px;
+
+$padded-container-defaults: $default-container-padding;
+
+/* Other */
+
+$default-line-height: 150%;
+
+
+header ul.collections-categories {
+	display: flex;
+	font-weight: 500;
+}
+
+ul.collection-row {
+	display: flex;
+	// padding: 10px 0;
+	margin-top: 15px;
+	line-height: $default-line-height;
+}
+
+.courses-title-category-col {
+	width: 170px;
+}
+
+.courses-code-category-col {
+	width: 100px;
+}
+
+.courses-instructors-category-col {
+	width: 250px;
+}
+
+.courses-school-category-col {
+	width: 200px;
+}
+
+$link-color: #3269C5;
+$link-hover-color: #274E90;
+
+ul.table-row li.courses-title-category-col {
+	color: $link-color;
+}
+
+ul.table-row li.courses-title-category-col:hover {
+	color: $link-hover-color;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
